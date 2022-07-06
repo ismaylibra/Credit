@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="	https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/CSS/style.css">
+    <title>Credit Calculator</title>
+</head>
+<body>
+   <div id="all-site" class="text-center">
+    <h1 class="mb-4" style="color: gold;">Kredit Kalkulyatoru</h1>
+    <hr style="color: white;">
+    <span>Götürmək Istədiyiniz Məbləği Daxil Edin: </span>
+    <input id="input" type="number" min="0"> <span>AZN</span>
+    <br><br><br>
+    <span>Kredit Müddətini Seçin</span> 
+    <select name="" id="slc_month" class="px-3 py-2">
+        <option value="12">12 ay</option>
+        <option value="18">18 ay</option>
+        <option value="24">24 ay</option>
+        <option value="36">36 ay</option>
+    </select>
+    <br><br><br>
+    <span>Faizi Daxil Edin: </span> 
+    <input id="percent" type="number" min="0"> <span>%</span>
+    <h1 style="color: #F5F5F5" class="mt-5">Son Məbləğ: <span id="price">0</span> AZN</h1>
+    <h1 style="color: #F5F5F5"  class="mt-5">Aylıq Ödənəcək Məbləğ: <span id="monthly_price">0</span> AZN</h1>
+    <button id="btn" class="btn btn-primary mt-3 p-3">Hesabla</button>
+   </div>
+    <script src="assets/JS/app.js"></script>
+</body>
+</html>

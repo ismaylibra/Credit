@@ -1,0 +1,33 @@
+select,
+input {
+    border: none;
+    outline: none;
+}
+
+select {
+    background-color: #2E2A5C;
+    color: #fff;
+    border-radius: 5px;
+}
+
+input {
+    border-bottom: 1px solid #fff;
+    background-color: #2E2A5C;
+    color: #fff;
+    width: 70px;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+body {
+    background-image: linear-gradient(to right, #0f0c29, #302b63, #24243e);
+}
+
+span {
+    color: #fff;
+}
+option{
+    
+}
